@@ -1,0 +1,224 @@
+.name {
+  position: absolute;
+  left: 60%;
+  bottom: 60%;
+}
+.title {
+  position: absolute;
+  left: 60%;
+  bottom: 55%;
+}
+
+.first-row{
+  width:100%;
+  /* border-bottom: 2px solid #333; */
+  border: 2px solid #333;
+
+}
+
+.first-column{
+  width: 50%;
+  float: left;
+  height: 459px;
+    align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-column p {
+
+  margin-left: 90px;
+}
+
+.first-column h2 {
+  position: relative;
+  /* margin-top: -50px; */
+  /* margin-bottom: 100px; */
+  bottom: 27%;
+}
+
+.second-column{
+  width: 50%;
+  float: right;
+  /* height: 300px */
+
+}
+.second-column h2 {
+  position: relative;
+  left: 40%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    height:650px;
+  }
+
+  /* .header-div{
+    color: #fff;
+display:flex;
+background-color: #333;
+
+
+  } */
+
+  .profile-picture {
+    position: absolute;
+    /* top: 10px; 
+    right: 10px;  */
+    top: 15%;
+    left: 5%;
+  }
+
+  
+  .profile-picture img {
+    /* width: 100px;
+    height: 100px; */
+    width: 561px;
+    height: 520px;
+    /* border-radius: 70%; */
+    object-fit: cover;
+  }
+  
+
+  section {
+    padding: 2em;
+  }
+
+  .project {
+    margin-bottom: 2em;
+  }
+
+  footer {
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.card-experience {
+  display:flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.card-experience h3 {
+  color: #3498db; 
+}
+
+.card-experience p {
+  color: #555; 
+}
+
+
+section h2 {
+  color: #2c3e50; 
+}
+
+section p {
+  color: #555; 
+}
+
+
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px; 
+  }
+
+  .skills h3 {
+    text-align: center; 
+  font-size: 24px; 
+  color: #3498db; 
+  margin-bottom: 10px;
+  }
+
+  .skills {
+   text-align: center;
+  }
+  
+  .skill {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: #3498db; 
+    color: #fff; 
+  }
+  
+  .skill.html {
+    background-color: #e74c3c; 
+  }
+  
+  .skill.css {
+    background-color: #f39c12; 
+  }
+  
+  .skill.javascript {
+    background-color: #FFD700;
+  }
+  
+  .skill.react {
+    background-color: #e67e22; 
+  }
+
+.skill.node {
+    background-color:  #FF0000; 
+  }
+  
+  .skill.c# {
+    background-color: #FFA07A; 
+  }
+  
+  .skill.net {
+    background-color: #006400;
+  }
+  
+  .skill.express{
+    background-color: #006400; 
+  }
+  
+  .skill.git {
+    background-color: #0000FF; 
+  }
+  
+  .skill.github {
+    background-color: #DA70D6;
+  }
+  
+  .skill.mongo{
+    background-color: #FFB6C1; 
+  }
+
+  .skill.sql{
+    background-color: #A52A2A; 
+  }
